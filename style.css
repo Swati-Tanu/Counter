@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fedbb4;
+    display: flex;
+    place-items: center;
+    justify-content: space-evenly;
+}
+.counter-container{
+    text-align: center;
+}
+.counter{
+    padding: 20px;
+    font-size: 50px;
+    color: brown;
+}
+.counter-container span{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: rgb(12, 68, 71);
+}
+    
